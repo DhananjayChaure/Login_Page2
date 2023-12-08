@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Welcome Page</title>
+    <style>
+        #heading{
+            text-align: center;
+            background-color: red;
+            padding: 15px;
+        }
+        @keyframes blink{
+            0%{opacity: 0;}
+            50%{opacity: 1;}
+            100%{opacity: 0;}
+        }
+        #blinking-text{
+            animation-name: blink;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+
+        #container1{
+            height: 500px;
+            border: 5px dashed silver;
+            background-color: burlywood;
+            padding: 40px 40px;
+            align-items: center;
+            align-content: center;
+        }
+        #student_table{
+            background-color: cadetblue;
+            height: 50px;
+            width: 100%;
+        }
+        /*Footer*/
+        footer{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-family: sans-serif;
+        }
+        #copyright{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 30%;
+            padding-left: 30%;
+            text-align: center;
+            position: relative;
+            margin-top: 100px;
+            width: 100%;
+            height: auto;
+            background: black;
+            color: white;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"><span id="blinking-text">Weolcome, Successfully Login :)</span></h1>
+    <div id="container1">
+        <table id="student_table" border="3px">
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Doraemon</td>
+                <td>3234234234</td>
+                <td>Satana</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nobita</td>
+                <td>4423423434</td>
+                <td>Nampur</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shizuka</td>
+                <td>3453453454</td>
+                <td>Nashik</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Giyan</td>
+                <td>6756756767</td>
+                <td>Mumbai</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Suneo</td>
+                <td>5645677544</td>
+                <td>Pune</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p id="copyright">© 2023 Dhananay Chaure</p>
+    </footer>
+</body>
+</html>
