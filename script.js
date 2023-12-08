@@ -25,7 +25,7 @@ function validated(){
         email.focus();
         return false;
     }
-    if (email.value!='abcd@gmail.com') {
+    if (email.value!='umesh2004@gmail.com') {
         document.getElementById("email_error").innerHTML="Wrong email...!";
         email.style.border = "1px solid red";
         email_error.style.display = "block";
@@ -48,7 +48,7 @@ function validated(){
         password.focus();
         return false;
     }
-    if (password.value != 'abcd19') {
+    if (password.value != 'umesh') {
         document.getElementById("pass_error").innerHTML="Wrong Password...!";
         password.style.border = "1px solid red";
         pass_error.style.display = "block";
