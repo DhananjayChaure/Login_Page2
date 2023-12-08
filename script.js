@@ -48,7 +48,7 @@ function validated(){
         password.focus();
         return false;
     }
-    if (password.value != 'umesh') {
+    if (password.value != 'umesh2004') {
         document.getElementById("pass_error").innerHTML="Wrong Password...!";
         password.style.border = "1px solid red";
         pass_error.style.display = "block";
@@ -77,7 +77,7 @@ function pass_Verify(){
         pass_error.style.display = "none";
         return true;
     }
-    if (password.value == 'umesh') {
+    if (password.value == 'umesh2004') {
         password.style.border = "1px solid silver";
         pass_error.style.display = "none";
         return true;
