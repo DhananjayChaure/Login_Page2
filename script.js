@@ -65,7 +65,7 @@ function email_Verify(){
         email_error.style.display = "none";
         return true;
     }
-    if (email.value == 'abcd@gmail.com') {
+    if (email.value == 'umesh2004@gmail.com') {
         email.style.border = "1px solid silver";
         email_error.style.display = "none";
         return true;
@@ -77,7 +77,7 @@ function pass_Verify(){
         pass_error.style.display = "none";
         return true;
     }
-    if (password.value == 'abcd19') {
+    if (password.value == 'umesh') {
         password.style.border = "1px solid silver";
         pass_error.style.display = "none";
         return true;
